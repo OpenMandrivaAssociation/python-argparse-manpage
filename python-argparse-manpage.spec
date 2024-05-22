@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Name:		python-argparse-manpage
 Version:	4.5
 Release:	1
