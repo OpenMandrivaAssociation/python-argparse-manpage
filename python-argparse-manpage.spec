@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 Name:		python-argparse-manpage
 Version:	4.6
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/a/argparse-manpage/argparse-manpage-%{version}.tar.gz
 Summary:	Build manual page from python's ArgumentParser object
 URL:		https://pypi.org/project/argparse-manpage/
