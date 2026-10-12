@@ -24,7 +24,6 @@ Build manual page from python's ArgumentParser object.
 %prep -a
 # Remove bundled egg-info
 rm -rf %{oname}.egg-info
-patch -p0 -i %{PATCH0}
 
 %files
 %{_bindir}/*

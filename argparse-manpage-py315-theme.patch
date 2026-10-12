@@ -1,5 +1,5 @@
---- argparse_manpage/manpage.py
-+++ argparse_manpage/manpage.py
+--- a/argparse_manpage/manpage.py
++++ b/argparse_manpage/manpage.py
 @@ -363,6 +363,8 @@ class _ManpageFormatter(HelpFormatter):
  class _ManpageFormatter(HelpFormatter):
      def __init__(self, prog, old_formatter, format):
