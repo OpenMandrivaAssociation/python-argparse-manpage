@@ -6,6 +6,7 @@ Name:		python-argparse-manpage
 Version:	4.7
 Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/a/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Patch0:		argparse-manpage-py315-theme.patch
 Summary:	Build manual page from python's ArgumentParser object
 URL:		https://pypi.org/project/argparse-manpage/
 License:	Apache-2.0
@@ -23,6 +24,7 @@ Build manual page from python's ArgumentParser object.
 %prep -a
 # Remove bundled egg-info
 rm -rf %{oname}.egg-info
+patch -p0 -i %{PATCH0}
 
 %files
 %{_bindir}/*
