@@ -4,7 +4,7 @@
 
 Name:		python-argparse-manpage
 Version:	4.7
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/a/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Build manual page from python's ArgumentParser object
 URL:		https://pypi.org/project/argparse-manpage/
